@@ -5,13 +5,13 @@ The Basic Flipkart Review Scraper is a simple web application built with Python,
 
 ## Features:
 
-### Web Scraping with Beautiful Soup:
+#### 1. Web Scraping with Beautiful Soup:
 Utilizing Beautiful Soup, the application efficiently extracts review data from the Flipkart website. Beautiful Soup simplifies the process of parsing HTML and navigating the DOM, making it easier to collect relevant information.
 
-### User-Friendly Web Interface:
+#### 2. User-Friendly Web Interface:
 The application is built using Flask, providing a simple and intuitive web interface. Users can input the Flipkart product URL or keywords to search for products, and the application will retrieve and display the corresponding reviews.
 
-### Scraped Data Presentation:
+#### 3. Scraped Data Presentation:
 Fetched reviews are presented in a clean and organized manner, making it easy for users to read and analyze. Information such as user ratings, comments, and timestamps are displayed for each review.
 
 
@@ -49,10 +49,10 @@ python app.py
 Open this link in browser: http://127.0.0.1:5000
 ```
 
-### Note: you can view this URL in the recently generated log file and click on the link(ctrl+click) 
-
-```
- A review csv file is automatically saved for each type of Product search.
+### Note:
+```bash
+1. you can view this URL in the recently generated log file and click on the link(ctrl+click) 
+2. A review csv file is automatically saved for each type of Product search.
 ```
 
 ## How to use:
